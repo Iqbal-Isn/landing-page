@@ -1,0 +1,279 @@
+* {
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+  z-index: 2;
+}
+html {
+  scroll-behavior: smooth;
+}
+nav {
+  position: fixed !important;
+  width: 100%;
+  z-index: 3;
+}
+.navbar-nav a {
+  color: rgba(255, 255, 255, 0.753) !important;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.navbar-nav a:hover {
+  color: rgb(255, 255, 255) !important;
+}
+
+.hero {
+  color: #fff;
+}
+.hero h1 {
+  font-size: 3.3rem;
+  padding-top: 80px;
+  font-weight: 800;
+}
+
+#hero img {
+  border-radius: 10px;
+  width: 16rem;
+  display: flex;
+  margin: auto;
+  margin-top: -14rem;
+  box-shadow: 0px 10px 10px 2px rgba(0, 0, 0, 0.25);
+}
+.icon a {
+  color: #fff;
+  width: 1px;
+}
+#about .ui {
+  margin: auto;
+  border-radius: 10px;
+  width: 16rem;
+  display: flex;
+
+  box-shadow: 0px 10px 10px 2px rgba(0, 0, 0, 0.25);
+}
+#about h1 {
+  font-weight: 600;
+}
+#about h2 {
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.589);
+}
+.btn-download {
+  background-color: transparent;
+  color: #0d6efd;
+  height: 3.1rem;
+  width: 10rem;
+}
+.btn-download2 {
+  background-color: transparent;
+  color: #ffffff;
+  border-color: #fff;
+  height: 3.1rem;
+  width: 10rem;
+}
+.back {
+  background: url("/img/Rectangle\ 1.png");
+  background-repeat: no-repeat;
+  background-size: 22rem 25rem;
+  background-position: center;
+}
+#testi h1 {
+  font-weight: 600;
+}
+.p-testi {
+  margin-bottom: 3rem;
+  font-weight: 400;
+}
+.comment img {
+  width: 3rem;
+}
+.comment {
+  margin-bottom: 3rem;
+}
+.comment p {
+  margin-bottom: 2rem;
+}
+.profile {
+  margin: 0;
+}
+.profile img {
+  height: 3rem;
+}
+.name h3 {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.name span {
+  color: rgba(0, 0, 0, 0.589);
+}
+.icon-contact {
+  color: #0d6efd;
+}
+.icon-contact span {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.589);
+}
+#footer {
+  margin-top: 5rem;
+  padding-top: 3rem;
+  color: #fff;
+  background-color: #141b25;
+}
+#footer p {
+  font-weight: 300;
+}
+#service {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+.card {
+  border: none;
+  box-shadow: 0px 10px 10px 2px rgba(0, 0, 0, 0.02);
+}
+.card:hover {
+  background-color: #0d6efd;
+}
+.card:hover i {
+  color: #fff;
+}
+.card:hover h5 {
+  color: #fff;
+}
+.card p {
+  font-weight: 200;
+}
+.card:hover p {
+  color: #fff;
+}
+.card h5 {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.774);
+}
+.card i {
+  color: #0d6efd;
+}
+#service p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+#service h1 {
+  font-weight: 400;
+}
+#get {
+  color: #fff;
+}
+#get p {
+  font-weight: 200;
+  color: #fff;
+}
+.started {
+  border: 1px #0d6efd;
+  border-radius: 0.5rem;
+  background-color: #0d6efd;
+}
+@media screen and (max-width: 991px) {
+  .comment {
+    margin-bottom: 5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero {
+    height: 0;
+    padding-bottom: 15rem;
+  }
+  #hero h1 {
+    font-size: 2.3rem;
+  }
+  #hero p {
+    font-size: 0.9rem;
+  }
+  #hero br {
+    display: none;
+  }
+  #hero img {
+    display: none;
+  }
+  .icon a {
+    display: none;
+  }
+  #about {
+    margin-top: 0;
+  }
+  #about h2 {
+    font-size: 1.7rem;
+  }
+  #about p {
+    font-size: 1rem;
+    font-weight: 200;
+  }
+  #about button {
+    margin-bottom: 2rem;
+  }
+  .card h5 {
+    font-size: 1.3rem;
+  }
+  .card-body p {
+    font-size: 1rem !important;
+  }
+  .card {
+    padding: 25px 0 !important;
+    margin-bottom: 1rem;
+  }
+  #get {
+    margin-top: 20px !important;
+  }
+  #get p {
+    font-size: 0.9rem;
+  }
+  #get br {
+    display: none;
+  }
+  #testi p {
+    font-size: 0.9rem;
+  }
+  #testi br {
+    display: none;
+  }
+  .comment p {
+    font-size: 1rem !important;
+  }
+  .p-testi {
+    margin-bottom: 2rem;
+    font-weight: 400;
+  }
+
+  .comment img {
+    width: 3rem;
+  }
+  .comment {
+    margin-bottom: 3rem;
+  }
+  .comment p {
+    margin-bottom: 1rem;
+  }
+  .profile {
+    height: 4rem;
+  }
+  .profile img {
+    height: 3rem;
+  }
+  .name h3 {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  .name span {
+    color: rgba(0, 0, 0, 0.589);
+  }
+}
+@media screen and (max-width: 400px) {
+  .hero {
+    padding-bottom: 22rem;
+  }
+}
