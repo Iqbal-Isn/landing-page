@@ -181,6 +181,9 @@ p {
   .comment {
     margin-bottom: 5rem;
   }
+  .card {
+    margin-bottom: 1rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
